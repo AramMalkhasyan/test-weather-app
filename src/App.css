@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  background-color: #4B0081;
+  padding: 1% 35%;
+  display: grid;
+}
+.weather-icon{
+  width: 10vw;
+  height: 10vw;
+}
+.weather-information-block{
+  width: 20vw;
+  align-items: center;
+  text-align: center;
+}
+.city-name{
+  font-size: 3vw;
+}
+.temp{
+  font-size: 4vw;
+}
+.weather-description{
+  font-size: 2vw;
+}
+
+.weather-by-time{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.weather-conteiner{
+  padding-top: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.every-time-weather{
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  border-bottom: 1px solid grey;
+}
+.every-day-temp{
+  padding: 2vw;
+  width: 10vw;
+  border: solid 1px grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+.every-day-temp p{
+  font-size: 2vw;
+  
+}
+
+.every-day-temp-conteiner{
+  display: flex;
+  gap: 5vw;
+  margin-left: 15vw;
+  margin-top: 3vw;
+}
+
+.time-by-time-icons{
+  width: 2vw;
+  height: 2vw;
+}
+
